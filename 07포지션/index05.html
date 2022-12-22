@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box; list-style: none;}
+
+        .box{
+            margin: 0 auto;
+            border: 1px solid #777;
+            width: 400px;
+
+            padding: 5px;
+            position: relative;
+            
+        }
+
+        .box-img{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+
+
+        .box-content{
+            overflow: hidden;
+            padding-left: 90px;
+           
+           
+        }
+
+        .box-content .left{float: left;}
+        .box-content .right{float: right; }
+
+        .box-content textarea{width: 100%; height: 225px; resize: vertical;}
+
+        .left input {display: block;}
+
+        
+        .c{
+            overflow: hidden; 
+            padding-left: 90px;
+        }
+        .l{float: left;}
+        .r{float: right; }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="box"> <!-- margin:0 auto -->
+        <div class="box-img"> <!-- 포지션 -->
+            <img src="img/bgimg.png" alt="이미지">
+        </div>
+
+        <div class="box-content"> <!-- 패딩left -->
+            <textarea></textarea>
+            <div class="left"> <!-- float: left -->
+                <input type="text">
+                <input type="text">
+            </div>
+            <button type="button" class="right">등록</button> <!-- float: right -->
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-img">
+        <img src="img/bgimg.png" width="50" alt="물고기">
+        </div>
+        <div class="c">
+        <div class="l">
+            <h4>제목</h4>
+            <p>내용</p>
+        </div>
+        <button type="button" class="r">삭제</button>
+        <button type="button" class="r">수정</button>
+        </div>
+    </div>
+</body>
+</html>
