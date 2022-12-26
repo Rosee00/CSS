@@ -1,0 +1,61 @@
+*{padding: 0; margin: 0; list-style: none;}
+img{max-width: 100%; height: auto;} /* 이미지가 크더라도 부모영역을 넘어가지 못하게한다 */
+
+.form-control{border-radius: 0;}
+.form-control:focus{border-color: #000; box-shadow: none;}
+.btn{border-radius: 0;}
+
+.mynav{
+    background-color: #263238;
+    border-color: #263238;
+    border-radius: 0;
+    margin: 0;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover{ /* active가 들어가 있는 클래스 */
+    background-color: #304047;
+}
+
+
+.navbar-inverse .navbar-nav> li >a:focus, 
+.navbar-inverse .navbar-nav> li >a:hover{ /* active가 없는 클래스 */
+    background-color: #304047;
+}
+
+.mylogo{
+    padding: 10px 15px;
+} /* 기존디자인 수정 */
+
+/* ============배너============= */
+.myslide {
+    padding: 0;
+}
+
+/* <> 검정 그림자 없애줌 */
+.carousel-control.left,
+.carousel-control.right{
+    background-image: none;
+}
+
+/* ============섹션 컨텐츠=========== */
+#main_wrap{margin-top: 50px;}
+.prod-content .content{
+    overflow: hidden;
+}
+.prod-content .content .info{float: left;}
+.prod-content .content .info span{
+    display: block;
+    font-weight: 700;
+    color: #999;
+}
+.prod-content .content .price{float: right;}
+
+/* 신발색상 */ /* opactity 숨기기 기능 */
+.prod-content:hover .content-color{opacity: 1; transition: all 0.5s ease-in-out;}
+.prod-content .content-color{margin-top: -20px; opacity: 0;}
+.prod-content .content-color ul{overflow: hidden;}
+.prod-content .content-color ul li{float: left;}
+.prod-content .content-color ul li img {width: 45px;}
+

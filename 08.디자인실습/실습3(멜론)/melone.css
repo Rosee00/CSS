@@ -110,7 +110,7 @@ img{max-width: 100%; height: auto;}
     height: 22px;
     line-height: 22px;
     font-size: 13px;
-
+    
 }
 
 
@@ -165,7 +165,7 @@ img{max-width: 100%; height: auto;}
 
 
 
-/* ------- */
+/* ----숙제 하단 컨텐츠 내용---- */
 #section .banner_main{ margin-top: 20px;}
 
 #section .hot_issue{margin-top: 20px; width: 704px; }
@@ -177,4 +177,4 @@ img{max-width: 100%; height: auto;}
 #section .wrap .hot_issue ul .m0{margin-left: 0px;}
 #section .wrap .hot_issue ul li .inner a{display: inline-block; color: #000;}
 
-.hot_issue ul li .inner a>span {margin-top: 3px; display: block;}
+.hot_issue ul li .inner > a>span {margin-top: 3px; display: block;}
